@@ -1,0 +1,16 @@
+.app-body {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+.app-sidebar {
+  flex-basis: 120px;
+  flex-shrink: 0;
+  height: 100%;
+}
+
+.app-content {
+  flex-grow: 1;
+  height: 100%;
+  overflow: auto;
+}

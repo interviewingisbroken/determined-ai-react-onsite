@@ -1,0 +1,35 @@
+nav {
+  align-items: center;
+  background-color: #24292e;
+  color: #ffffff;
+  display: grid;
+  grid-column-gap: 14px;
+  grid-template-columns: 32px 130px auto;
+  height: 60px;
+  padding: 0 14px;
+}
+
+nav > .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav > .picker {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+
+  label {
+    font-size: 18px;
+    padding-right: 12px;
+  }
+
+  select {
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 3px;
+    font-size: 18px;
+    height: 36px;
+    padding: 0 12px;
+  }
+}

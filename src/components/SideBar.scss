@@ -1,0 +1,47 @@
+aside {
+  align-items: center;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+aside::after {
+  background-color: #dddddd;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  width: 1px;
+}
+
+aside > a {
+  color: #333333;
+  font-size: 18px;
+  margin-top: 24px;
+  text-decoration: none;
+  width: 120px;
+  overflow: hidden;
+  padding-left: 22px;
+}
+
+aside > a.active {
+  color: #4d8bc7;
+  position: relative;
+  z-index: 100;
+}
+
+aside > a.active::after {
+  background-color: #ffffff;
+  border: solid 1px #dddddd;
+  content: '';
+  display: block;
+  height: 12px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%) rotate(45deg);
+  width: 12px;
+}

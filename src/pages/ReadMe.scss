@@ -1,0 +1,31 @@
+.readme {
+  display: flex;
+  justify-content: center;
+}
+
+.readme > article {
+  max-width: 920px;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.readme a {
+  color: #4d8bc7;
+}
+
+.readme code {
+  background-color: #eee;
+}
+
+.readme h1 { font-size: 2.4em; }
+.readme h2 { font-size: 1.8em; }
+.readme h3 { font-size: 1.6em; }
+
+.readme p {
+  line-height: 1.25;
+}
+
+.readme pre {
+  background-color: #eee;
+  padding: 20px;
+}
